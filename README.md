@@ -1,7 +1,7 @@
 # flipclock
 3D Printed Flip Clock Design and Code
 
-![Smart Flip Clock](https://thomasjbarlow.com/images/3dprints/flipclock_fourth.gif)
+![Smart Flip Clock](flipclock_fourth.gif)
 
 
 # Making The Smart Flip Clock
