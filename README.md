@@ -1,6 +1,8 @@
 # flipclock
 3D Printed Flip Clock Design and Code
 
+![Smart Flip Clock](https://thomasjbarlow.com/images/3dprints/flipclock_fourth.gif?raw=true)
+
 
 # Making The Smart Flip Clock
 The first thing that must be done for this project is to obtain all the materials that will be used. The list of things needed in this project are:
