@@ -44,6 +44,8 @@ For the Pi Zero, the following command must be run to obtain the GPIO package.
 `sudo apt-get update
 sudo apt-get install rpi.gpio`
 
+Before the code will run, you must first obtain an API key from https://openweathermap.org/api (free). This is needed to fetch the weather for your area. Take the key that is generated from your account, and put it in the place of `api_key = "YOUR_API_KEY_HERE"` in the code (line 122). This will give the python code access to the weather data. 
+
 Upload the code to the Pi, and run the command `sudo nohup flipclock.py`. This will get the code to run in the background on the pi. 
 
 There are 4 "modes" of the clock. Right as the script starts, it's in its default mode of showing the time. When the button is pressed, it will show the weather for an amount of time you can set for yourself, default is 10 seconds. To pause the clock, hold the button for more than 2 seconds but less than 10. To unpause, just press the button again. To set the flaps back to their 'resting' state, 0000, hold the button for 10 seconds. This will also end the python script.
