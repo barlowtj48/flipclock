@@ -136,7 +136,11 @@ def format_weather():
     output = str("{}{}".format(temperature, icon))
     return output
 
-        
+# Flap 0 pins on raspberry pi: 17, 27, 22, 23
+# Flap 1 pins on raspberry pi: 10, 9,  11, 0
+# Flap 2 pins on raspberry pi: 5,  6,  13, 19
+# Flap 3 pins on raspberry pi: 25, 8,  7,  1
+# as you can see in the line below, any GPIO pin will work, as long as they are associated correctly here in the code. 
 servos = [Servo([17, 27, 22, 23]), Servo([10,9,11,0]), Servo([5,6,13,19]), Servo([25,8,7,1])]
 sc = ServoController(servos)
 
