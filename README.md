@@ -51,3 +51,5 @@ Before the code will run, you must first obtain an API key from https://openweat
 Upload the code to the Pi, and run the command `sudo nohup flipclock.py`. This will get the code to run in the background on the pi. 
 
 There are 4 "modes" of the clock. Right as the script starts, it's in its default mode of showing the time. When the button is pressed, it will show the weather for an amount of time you can set for yourself, default is 10 seconds. To pause the clock, hold the button for more than 2 seconds but less than 10. To unpause, just press the button again. To set the flaps back to their 'resting' state, 0000, hold the button for 10 seconds. This will also end the python script.
+
+If you want to read more about my time designing this and printing it, read some more about it [on my website](https://thomasjbarlow.com/flip_clock).
