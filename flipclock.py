@@ -119,7 +119,7 @@ def format_time():
     return output
 
 def format_weather():
-    api_key = "13e8ca16379a0c6dc6af97307803b009"
+    api_key = "YOUR_API_KEY_HERE"
     location = geocoder.ip('me')
     url = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={api}".format(lat=location.latlng[0], lon=location.latlng[1], part="hourly,minutely,alerts,daily", api=api_key)
 
