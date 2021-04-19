@@ -1,5 +1,5 @@
-# flipclock
-3D Printed Flip Clock Design and Code
+# Smart Flip Clock
+3D printed smart clock that puts a new twist on old technology.
 
 ![Smart Flip Clock](flipclock_fourth.gif)
 
