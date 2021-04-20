@@ -21,7 +21,20 @@ They can be found on Amazon at this link. https://www.amazon.com/gp/product/B015
 
 The entire construction of this clock is 3D printed, including the numbers and symbols on the flaps. Drawing on the flaps, or using stickers would be much easier however.
 
-After printing the parts that are found on this GitHub, they can be assembled to fit together. The only thing that needs adjustment is the very small piece of plastic that is used to hold each flap in position. By design, this piece is meant to be bent after the fact to an amount that holds them sufficiently. 
+After printing the parts that are found on this GitHub, they can be assembled to fit together. The only thing that needs adjustment is the very small piece of plastic that is used to hold each flap in position. By design, this piece is meant to be bent after the fact to an amount that holds them sufficiently. Here's the correct number of parts that you'll need for the full assembly. If they are not listed, you only need 1 of them. 
+
+- 56 Flaps
+- 4 Drive Plates
+- 4 Top Rings (to hold each of the 14 flaps onto their central shaft)
+- 4 Flap Gear shafts
+- 4 Drive Gears
+- 4 Idle Gears
+- 4 Idle Gear Holders (look like washers)
+- 8 Bolts (printed)
+- 4 Frame braces (optional if you're using the flap restrictor)
+
+
+For the larger parts, I've included 2 options for those who are trying to print this with a smaller print bed. Option 1 is to come up with something on your own, and use the STEP files that are in the STEP files folder. Option 2 is to use the parts labeled `clock_part_split0.stl`. These are cut up to fit onto beds that are 150mm, to make sure that everyone can print them. 
 
 In the code (and before putting labels on), make sure to test the code after plugging in the motors. If they do not rotate smoothly, you have likely ordered the pins incorrectly. Add a `time.sleep(1)` command where the clock increments each step of the motor. This will indicate what stage in the step that the motor is in. The LEDs on the controller board should light up to reflect its current stage. They should follow this order. 1 for on, 0 for off. 
 
