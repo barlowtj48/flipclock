@@ -52,6 +52,7 @@ If this is not true, ensure that the correct pins are in order in the code.
 After this holds true for all 4 steppers, then you are good to attack the motors to the clock frame with the plastic bolts and glue.
 
 A button is also included, I used an old mechanical key switch that was laying around. This is used to operate the clock.
+It is connected as a closed loop to the raspberry pi. The switch is attached to GPIO pin 24, and to ground. The orientation should not matter. It is used as a trigger in the code to display the weather, and pause/stop the clock when held for longer durations. 
 
 Make sure that the following packages are installed on the system, so that the code is able to locate itself and give accurate weather information. This is done with the following commands. 
 `sudo pip3 install geocoder`
