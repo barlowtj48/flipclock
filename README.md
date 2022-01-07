@@ -66,4 +66,12 @@ Upload the code to the Pi, and run the command `sudo nohup flipclock.py`. This w
 
 There are 4 "modes" of the clock. Right as the script starts, it's in its default mode of showing the time. When the button is pressed, it will show the weather for an amount of time you can set for yourself, default is 10 seconds. To pause the clock, hold the button for more than 2 seconds but less than 10. To unpause, just press the button again. To set the flaps back to their 'resting' state, 0000, hold the button for 10 seconds. This will also end the python script.
 
-If you want to read more about my time designing this and printing it, read some more about it [on my website](https://thomasjbarlow.com/flip_clock).
+## Assembly
+If you've printed the number of pieces directed above, then assembly should be a relatively-simple puzzle to assemble. To assist, here are photos of the rear of my clock that should help to clear up any confusion if you have any.
+
+<img src="flipclock_rear1.jpg" alt="Flipclock Rear Photo 1" width="400"/>
+
+<img src="flipclock_rear2.jpg" alt="Flipclock Rear Photo 2" width="400"/>
+
+To read more about my time designing this and printing it, visit [my website](https://thomasjbarlow.com/flip_clock).
+If you have any questions about this, feel free to email me! You can find my email easily from the above link.
